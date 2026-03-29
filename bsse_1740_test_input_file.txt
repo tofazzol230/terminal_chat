@@ -1,0 +1,61 @@
+/*
+Name        : Md.Tofazzol Alam Rahat
+Roll        : BSSE-1740
+Section     : B
+Course      : Structured Programming Lab
+*/
+# Optional Test Input Files 
+
+---
+
+## ✅ Feature 1 — Group Messaging
+**Filename:** `feature_group.txt`
+```
+Rahat
+Hello everyone!
+How are you all?
+Have a good day!
+/quit
+```
+
+---
+
+## ✅ Feature 2 — Private Messaging (/to)
+**Filename:** `feature_private_set_target.txt`
+```
+Rahat
+/to Alice
+Hello Alice! Private test message!
+/quit
+```
+
+---
+
+## ✅ Feature 3 — One-time Private Message (@user)
+**Filename:** `feature_private_one_time.txt`
+```
+Rahat
+@Bob Hey Bob! This is one-time private!
+/quit
+```
+
+---
+
+## ✅ Feature 4 — Multiple Messages + Scroll Test
+**Filename:** `feature_stress_scroll.txt`
+```
+User123
+Line 1
+Line 2
+Line 3
+Line 4
+Line 5
+Line 6
+Line 7
+Line 8
+Line 9
+Line 10
+/quit
+```
+
+---

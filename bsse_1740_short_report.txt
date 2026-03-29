@@ -1,0 +1,85 @@
+# Short Report on Chat Application
+/*
+Name        : Md.Tofazzol Alam Rahat
+Roll        : BSSE-1740
+Section     : B
+E-mail      :bsse1740@iit.du.ac.bd
+Course      : Structured Programming Lab
+*/
+## Pointer Usage
+In both server and client programs, pointers are used to efficiently manage strings, socket descriptors, and thread communication.  
+Examples:
+- `char *` used for usernames, message buffers, and dynamic chat history storage.
+- Socket variables are passed to threads using pointers so each thread handles its own client connection.
+- `strtok()` uses pointer-based parsing to split incoming messages (`type|sender|target|content` format).
+Pointers allow fast data referencing without copying large structures.
+
+---
+
+## Dynamic Memory Allocation
+Dynamic memory is used where the size of data changes at runtime:
+- `strdup()` allocates memory for storing chat messages and usernames.
+- Heap memory is cleaned using `free()` when:
+  - A client disconnects (removes username)
+  - Chat history buffer overwrites oldest data
+Benefits:
+✅ Memory scales with number of users and messages  
+✅ Prevents static size limitations  
+✅ Enables safe removal and shifting of user/message entries
+
+---
+
+## ncurses-based UI Design (Client)
+The client uses **three separate ncurses windows**:
+1. **Users Window** — Shows active users and selection highlight with keyboard arrows.
+2. **Chat Window** — Displays messages with scroll support (PgUp / PgDn).
+3. **Input Window** — For typing messages and showing active target.
+
+Other ncurses improvements:
+- `COLOR_PAIR()` for color-coded message types:
+  - group, private, self messages, server/system messages
+- `box()` and window refresh for clean UI updates
+- Thread-safe screen updates using `pthread_mutex_lock()`
+
+This creates a professional terminal chat interface with filtered view and real-time updates.
+
+---
+
+## Group & Private Message Handling
+The system supports multiple messaging modes:
+
+### Group Messaging
+- Target set as `"all"`
+- Message broadcasted to all clients except sender
+- Displayed with group color tag
+
+### Private Messaging
+Two methods:
+1. **Persistent target**
+   ```
+   /to <username>
+   ```
+2. **One-time private message**
+   ```
+   @username <message>
+   ```
+Server checks message type:
+```
+type|sender|target|content
+```
+- If `group` → broadcast to all users
+- If `private` → only routed to target user
+
+User list synchronization ensures accurate routing and filtering.
+
+---
+
+## Summary
+| Concept | Purpose |
+|--------|---------|
+| Pointers | Efficient message/user data handling |
+| Dynamic Memory | Handling variable number of messages/users |
+| ncurses UI | Multi-window chat interface with scroll & filtering |
+| Group Handling | Supports both public and private conversations |
+
+This project demonstrates important concepts of **structured programming**, including memory safety, modular socket communication, concurrency, and interactive terminal UI design.

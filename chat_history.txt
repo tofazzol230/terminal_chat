@@ -1,0 +1,120 @@
+[18:00] [server] Rahat has joined the chat.
+[18:00] [group] Rahat -> all: Hello everyone!
+[18:01] [server] Mahi has joined the chat.
+[18:01] [group] Mahi -> all: Hi Rahat!
+[18:02] [server] Tofa has joined the chat.
+[18:02] [group] Tofa -> all: Assalamu Alaikum!
+[18:03] [server] Sadik has joined the chat.
+[18:03] [group] Sadik -> all: Good evening!
+
+[18:05] [private] Rahat -> Mahi: How are your assignments going?
+[18:06] [private] Mahi -> Rahat: Almost finished, thanks!
+
+[18:07] [server] Alice has joined the chat.
+[18:08] [group] Alice -> all: Hello guys!
+
+[18:09] [private] Tofa -> Sadik: Are you coming tomorrow?
+[18:10] [private] Sadik -> Tofa: Yes sure!
+
+[18:11] [private] Rahat -> Alice: Welcome Alice!
+[18:12] [private] Alice -> Rahat: Thank you 
+
+[18:13] [private] (one-time) Mahi -> Sadik: @Sadik Don't forget the homework!
+[18:14] [private] (one-time) Sadik -> Mahi: @Mahi Ok thanks!
+
+[18:15] [server] Hasan has joined the chat.
+[18:15] [group] Hasan -> all: First time here 
+[18:16] [group] Rahat -> all: Welcome Hasan!
+
+[18:17] [private] Rahat -> Tofa: /to Tofa Let's work on project later!
+[18:18] [server] Hasan has left the chat.
+[18:19] [server] Alice has left the chat.
+[18:20] [server] Sadik has left the chat.
+[18:21] [server] Mahi has left the chat.
+[18:22] [server] Rahat has left the chat.
+[18:22] [server] Tofa has left the chat.
+[18:50] [server] hhhj has joined the chat.
+[18:51] [server] hhhj has left the chat.
+[18:51] [server] hhhh has joined the chat.
+[18:51] [server] hhh has joined the chat.
+[18:51] [group] hhhh -> all: hi
+[18:51] [group] hhh -> all: ji
+[18:51] [server] hhh has left the chat.
+[01:41] [server] Rahat has joined the chat.
+[01:46] [server] mahi has joined the chat.
+[01:46] [server] raisa has joined the chat.
+[01:46] [server] sadik has joined the chat.
+[01:46] [server] nafi has joined the chat.
+[01:46] [server] shafi has joined the chat.
+[01:46] [server] bijoy has joined the chat.
+[01:46] [server] sakib has joined the chat.
+[01:47] [server] hhh has joined the chat.
+[01:47] [server] ajjjj has joined the chat.
+[01:48] [group] Rahat -> all: j
+[01:49] [private] Rahat -> shafi: hhhhjj
+[01:58] [server] gjgjkj has joined the chat.
+[01:58] [group] gjgjkj -> all: h
+[01:59] [server] gjgjkj has left the chat.
+[01:59] [server] gjgjgkgj has joined the chat.
+[02:02] [server] gjgjgkgj has left the chat.
+[02:02] [server] hjhkhk has joined the chat.
+[02:02] [group] hjhkhk -> all: hi
+[02:02] [private] hjhkhk -> rahat: jjgjgh
+[02:04] [server] Rahat has left the chat.
+[02:04] [server] hjhkhkh has joined the chat.
+[02:05] [server] hjhkhkh has left the chat.
+[02:14] [server] rahat has joined the chat.
+[02:14] [server] mahi has joined the chat.
+[02:14] [server] rifat has joined the chat.
+[02:15] [server] tofa has joined the chat.
+[02:15] [server] alam has joined the chat.
+[02:15] [group] alam -> all: hi
+[02:16] [group] alam -> all: how are you
+[02:16] [private] alam -> rahat: hi
+[02:16] [private] mahi -> mahi: hello
+[02:17] [private] mahi -> mahi: hi
+[02:17] [private] mahi -> mahi: /tofa
+[02:17] [private] mahi -> tofa: hi tofa
+[02:18] [private] rahat -> alam: ki re ,ki obsta
+[02:19] [private] rahat -> alam: ????
+[02:20] [server] mahi has left the chat.
+[02:36] [server] tofa has left the chat.
+[02:36] [server] rahat has left the chat.
+[02:36] [private] alam -> rahat: hi,!!!!
+[02:36] [server] alam has left the chat.
+[02:36] [server] rifat has left the chat.
+[02:25] [server] ragat has joined the chat.
+[02:25] [server] huijj has joined the chat.
+[02:25] [server] ghjh has joined the chat.
+[02:25] [server] bhghjgj has joined the chat.
+[02:25] [server] huijj has left the chat.
+[07:36] [server] rahat has joined the chat.
+[07:37] [server] rahat has left the chat.
+[09:47] [server] Rahat has joined the chat.
+[09:47] [server] Abrar has joined the chat.
+[09:47] [server] Mahi has joined the chat.
+[09:48] [server] Wakil has joined the chat.
+[09:48] [group] Rahat -> all: hi everyone
+[09:48] [group] Mahi -> all: hlw
+[09:54] [server] rahat has joined the chat.
+[09:54] [server] mahi has joined the chat.
+[09:54] [server] tofazzol has joined the chat.
+[09:54] [server] arian has joined the chat.
+[09:54] [private] rahat -> mahi: hi
+[10:37] [group] rahat -> all: hi
+[10:37] [group] rahat -> all: /mahi
+[10:37] [private] rahat -> mahi: hi mahi
+[10:37] [group] tofazzol -> all: hlw
+[10:38] [group] tofazzol -> all: how are you
+[10:38] [group] arian -> all: fine
+[10:38] [group] mahi -> all: hi
+[10:38] [private] rahat -> mahi: hi
+[10:49] [group] tofazzol -> all: hi
+[10:50] [private] rahat -> mahi: hlw
+[10:50] [group] arian -> all: si
+[11:22] [private] rahat -> mahi: /list
+[11:23] [group] tofazzol -> all: hi,how are you
+[11:23] [private] rahat -> mahi: hi mahi
+[12:43] [server] rahat has left the chat.
+[12:44] [group] tofazzol -> all: hi
+[12:44] [server] tofazzol has left the chat.
